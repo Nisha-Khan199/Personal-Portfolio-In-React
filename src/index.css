@@ -1,0 +1,97 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --box-shadow:5px 5px 10px 10px rgba(101, 175,10,0.5)
+}
+
+
+.box{
+    box-shadow: var(--box-shadow);
+}
+.box1 {
+    animation-name: superman;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes superman{
+    0% {
+border-color: blue;
+transform: translate(0,0px);
+box-shadow: 10px 10px 100px 50px blue;
+    }
+    25%{
+        border-color: rgb(239,244 ,11 );
+
+box-shadow: 10px 10px 100px 50px rgb(239,244 ,11);
+
+    }
+    50%{   border-color: rgb(12,12 ,199 );
+        transform: translate(0,10px);
+        box-shadow: 10px 10px 100px 50px rgb(12,12 ,199 );
+
+    }
+    75%{
+        border-color: rgb(130,217 ,160 );
+  
+        box-shadow: 10px 10px 100px 50px rgb(130,217 ,160 );}
+    100% {
+        border-color: rgb(50, 55,205 );
+        transform: translate(0,-0px);
+        box-shadow: 10px 10px 100px 50px rgb(50, 55,205 );
+    }
+}
+.ex-items{
+    box-shadow: var(--box-shadow);
+}
+.skills .items {
+    flex-wrap: wrap;
+}
+.skills .items .item{
+    width:calc(33.33%);
+    background-color: yellow;
+    border: 1px solid black;
+    box-shadow: var(--box-shadow);
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.skills .items .item h2{
+    font-weight: bold;
+}
+
+ .contact .icon {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.contact .icon .iconitem{
+
+padding: 10px;
+border-radius: 50%;
+border: 1px solid yellow;
+    margin: 15px;
+  
+    height: 60px;
+    width: 60px;
+  
+   
+}
+.contact .icon  :hover {
+    box-shadow: var(--box-shadow);
+}
+.contact .icon .iconitem .icons{
+   
+    font-size: 2rem;
+    margin: 4px;
+}
+
+
+

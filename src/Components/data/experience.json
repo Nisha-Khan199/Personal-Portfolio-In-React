@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "role":"Senior Machine Learning Engineer - II",
+        "organization" :"Google",
+        "startDate" :"Sept 2026",
+        "endDate" :"Present",
+        "location" :"NewYork City , United States",
+        "experience" : ["Worked on Google Maps","Worked with AI open source, Bard Team"],
+          "imageSrc": "company/google.png"
+      
+        
+        
+
+    },
+    {
+        "id":2,
+        "role":"Senior Software Devepopment Engineer - II",
+        "organization" :"Amazon",
+        "startDate" :"Sept, 2025",
+        "endDate" :"august 2026",
+        "location" :"Sydney City , Australia",
+        "experience" : ["Worked on Product System","worked with Backend Team"],
+              "imageSrc": "company/amazon.png"
+     
+   
+
+    },
+    {
+        "id":3,
+        "role":"Software Devepopment Engineering Intern",
+        "organization" :"Microsoft",
+        "startDate" :"March, 2024",
+        "endDate" :"October, 2024",
+        "location" :"Manchester , United Kingdom",
+        "experience" : ["Worked on Micosoft Teams","worked with Ms Word Team"],
+       
+      "imageSrc": "company/microsoft.png"
+    }
+]
